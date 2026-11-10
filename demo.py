@@ -1,12 +1,12 @@
 import math
 
-user_input = input("Enter a number: ")
+user_input = input("Enter a value: ")
 
 try:
     number = float(user_input)
     
     if number < 0:
-        print("invalid item")
+        print("invalid char")
     else:
         result = math.sqrt(number)
         print(f"The square root of {number} is {result}")
