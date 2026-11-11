@@ -5,7 +5,7 @@ user_input = input("Enter a value: ")
 try:
     number = float(user_input)
     
-    if number < 0:
+    if number < 10:
         print("invalid char")
     else:
         result = math.sqrt(number)
